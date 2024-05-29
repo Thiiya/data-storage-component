@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+s
+ * {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+}  
+
+  body{
+  
+    background-color: black;
+    color: snow;
+    margin: 25%;
+  }
+
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    background-color: white;
+    color: black;
+    height: 200px;
+  }
+
+  h1 {
+    color: snow;
+  }
+  .fylo {
+    width: 200px;
+    height: 120px;
+    padding: 5px;
+    border-radius: 0 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #93A392;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+  }
+
+  .fylo a {
+    color: red;
+    font-size: 20px;
+    padding-left: 15px;
+    
+  }
+
+
+ .icons .bx{
+   padding: 0;
+    
+    background-color:rgb(73, 59, 59);
+    color: snow;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .blue {
+    width: 500px;
+    height: 140px;
+    background-color: #93A392;
+   margin: 10px;
+   border-radius: 5px;
+  }
+
+  p {
+   padding: 10px 30px;
+  }
+
+  span {
+    font-weight: 700;
+  }
+
+  .top {
+    width: 400px;
+    height: 18px;
+    background-color: rgb(0, 0, 0);
+   margin: auto;
+   border-radius: 9px;
+  }
+
+  .red {
+    background-image: linear-gradient(to right, white , red);
+    width: 80%;
+    border-radius: 9px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .dot {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 245, 245);
+    border-radius: 50%;
+    
+  }
+
+  .numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 15px;
+    font-weight: 700;
+  }
+
+  .gb {
+    padding-left: 30px;
+  
+  }
+
+
+  .ggb {
+    padding-right: 30px;
+  }
+.meter {
+  margin-top: -13px;
+}
